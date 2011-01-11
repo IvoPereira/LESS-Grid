@@ -7,7 +7,7 @@ This variable controls the total width of grid. Common values for this are 900px
 #### 2. @columns-count
 This variable controls the number of columns in your grid. You can enter any value from 2 - 16 here.
 
-#### 2. @columns-margin
+#### 3. @columns-margin
 Changing the value of this column will give you whatever pixel value you want between your columns.
 
 # Who made this?
