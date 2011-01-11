@@ -1,4 +1,4 @@
-## Customizing the Grid
+# Customizing the Grid
 The LESS grid is controlled by 3 variables located at the top of the document. Modifying these will produce practically any grid imaginable. Let's go through them one by one...
 
 #### 1. @container-width
@@ -10,9 +10,7 @@ This variable controls the number of columns in your grid. You can enter any val
 #### 2. @columns-margin
 Changing the value of this column will give you whatever pixel value you want between your columns.
 
-___
-
-## Who made this?
+# Who made this?
 The LESS grid was created by [Galen Gidman](http://galengidman.com). Email him at galen [at] galengidman [dot] com.
 
 [Buy him a root beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HR4QLCPXNEZQ2).
