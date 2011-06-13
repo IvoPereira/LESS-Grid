@@ -1,10 +1,10 @@
 @container-width: 960px;
 @columns-count: 12;
-@columns-margin: 20px;
+@columns-margin: 10px;
 
 .container {
-  width: @container-width;
-  margin: 0 auto;
+	width: @container-width;
+	margin: 0 auto;
 }
 
 .grid1 { width: 1 * @container-width / @columns-count - @columns-margin + (1 * @columns-margin / @columns-count); }
@@ -25,8 +25,8 @@
 .grid16 { width: 16 * @container-width / @columns-count - @columns-margin + (16 * @columns-margin / @columns-count); }
 
 .grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8, .grid9, .grid10, .grid11, .grid12, .grid13, .grid14, .grid15, .grid16 {
-  float: left;
-  margin-left: @columns-margin;
+	float: left;
+	margin-left: @columns-margin;
 }
 
 .first {
