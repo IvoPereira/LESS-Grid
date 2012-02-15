@@ -2,21 +2,23 @@
 @column_count: 12;
 @column_margin: 10px;
 
-.clearfix {
+.cf {
 	zoom: 1;
 	&:after {
-		display: block;
-		visibility: hidden;
-		height: 0;
+		content: '';
+		display: table;
 		clear: both;
-		content: ".";
+	}
+	&:before {
+		content: '';
+		display: table;
 	}
 }
 
 .container {
 	width: @container_width;
-	margin: 0 auto;
-	.clearfix;
+	margin: auto;
+	.cf;
 }
 
 .column(@number) {
@@ -36,9 +38,3 @@
 	position: relative;
 	left: -@number * @container_width / @column_count + (@column_margin * 2);
 }
-
-.first { margin-left: 0; }
-
-.last { margin-right: 0; }
-
-.clear { clear: both; }
